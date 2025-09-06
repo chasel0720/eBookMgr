@@ -69,6 +69,7 @@ Thumbs.db
 
 # 开发工具文件
 .vscode/
+.vs/
 .ropeproject
 
 # 数据库文件
