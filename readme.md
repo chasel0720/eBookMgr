@@ -11,3 +11,20 @@ for me, it is used as pdf manager
   - delete will remove it, archive will move it to an archive folder and could not read on tags view
   - use sqlite to store the status
 - I don't need to comment on the pdf book
+
+
+---
+install packages
+``` shell
+pip install -r requirements.txt
+```
+
+update requirements:
+``` shell
+pip freeze > requirements.txt
+```
+
+pack as onefile exe
+``` shell
+pyinstaller --onefile main.py
+```
