@@ -1,23 +1,23 @@
-# PyCharm项目文件
+# PyCharm
 .idea/
 *.iml
 *.ipr
 *.iws
 .idea-workspace
 
-# 虚拟环境目录
+# virtual env
 venv/
 env/
 ENV/
 .env/
 .venv/
 
-# Python编译文件
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# 打包和发布文件
+# package
 *.egg
 *.egg-info/
 dist/
@@ -31,10 +31,10 @@ wheels/
 *.manifest
 *.spec
 
-# 安装包
+# setup files
 pip-delete-this-directory.txt
 
-# 单元测试和覆盖率
+# test
 htmlcov/
 .tox/
 .coverage
@@ -49,11 +49,11 @@ coverage.xml
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# 日志文件
+# log
 *.log
 logs/
 
-# 操作系统文件
+# sys
 .DS_Store
 .DS_Store?
 ._*
@@ -62,22 +62,22 @@ logs/
 ehthumbs.db
 Thumbs.db
 
-# 环境变量文件
+# env
 .env
 .env.local
 .env.production
 
-# 开发工具文件
+# ide
 .vscode/
 .vs/
 .ropeproject
 
-# 数据库文件
+# dbfile
 *.db
 *.sqlite3
 Lib/
 LibArchive/
 
-# 临时文件
+# cache
 *.tmp
 *.bak
